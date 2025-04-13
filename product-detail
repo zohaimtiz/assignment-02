@@ -1,0 +1,63 @@
+<!-- Name: Aleeba Nadeem | ID: 024 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   DenimVibe | Product Details
+  </title>
+  <link href="css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="collection.html">Collection (Shop)</a>
+        <a href="product-detail.html">Product Details</a>
+        <a href="size-chart.html">Size Chart</a>
+        <a href="offer.html">Special Offers</a>
+        <a href="reviews.html">Customer Reviews</a>
+        <a href="gallery.html">Lookbook Gallery</a>
+        <a href="faq.html">FAQs</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+      
+  <h2 class="page-heading">
+   Product Details
+  </h2>
+  <div class="product-detail" id="skinny">
+   <img alt="Skinny Jeans" src="images/skinny.jpg"/>
+   <div class="product-info">
+    <h3>
+     Skinny Jeans
+    </h3>
+    <p>
+     Our classic Skinny Jeans hug your body perfectly with stretchable fabric and a timeless look. Available in light and dark washes.
+    </p>
+    <p>
+     <strong>
+      Price:
+     </strong>
+     PKR 2,499
+    </p>
+   </div>
+  </div>
+  <div class="product-detail" id="highwaist">
+   <img alt="High Waist Jeans" src="images/highwaist.jpg"/>
+   <div class="product-info">
+    <h3>
+     High Waist Jeans
+    </h3>
+    <p>
+     Perfect for a chic and comfortable fit, our High Waist Jeans give you the confidence to slay every look. Great for crop tops and tucked-in shirts.
+    </p>
+    <p>
+     <strong>
+      Price:
+     </strong>
+     PKR 2,999
+    </p>
+   </div>
+  </div>
+ </body>
+</html>
