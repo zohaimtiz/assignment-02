@@ -1,0 +1,188 @@
+
+<!-- Created by: Zoha | ID: 028 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Customer Reviews | DenimVibe
+  </title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   /* Reset & Base */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #222;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+      font-size: 0.95rem;
+    }
+    nav a:hover,
+    nav a.active {
+      color: #f9a825;
+    }
+
+    /* Hero Banner */
+    .hero {
+      background: url('images/reviews-banner.jpg') center/cover no-repeat;
+      padding: 80px 20px;
+      text-align: center;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      font-weight: 300;
+    }
+
+    /* Reviews Grid */
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+    .review-card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .review-card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    .review-card h3 {
+      margin-bottom: 5px;
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+    .stars {
+      color: #f9a825;
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+    .review-card p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+ </head>
+ <body>
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="collection.html">Collection (Shop)</a>
+    <a href="product-detail.html">Product Details</a>
+    <a href="size-chart.html">Size Chart</a>
+    <a href="offer.html">Special Offers</a>
+    <a href="reviews.html">Customer Reviews</a>
+    <a href="gallery.html">Lookbook Gallery</a>
+    <a href="faq.html">FAQs</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+  
+  <!-- Hero Banner -->
+  <section class="hero">
+   <h1>
+    What Our Customers Say
+   </h1>
+   <p>
+    Real feedback from real DenimVibe lovers.
+   </p>
+  </section>
+  <!-- Reviews Section -->
+  <div class="container">
+   <div class="reviews-grid">
+    <!-- Review 1 -->
+    <div class="review-card">
+     <img alt="Sarah K" src="images/reviewer1.jpg"/>
+     <h3>
+      Sarah K.
+     </h3>
+     <div class="stars">
+      ★★★★★
+     </div>
+     <p>
+      "Absolutely love the high waist jeans! So comfy &amp; stylish. Will buy again!"
+     </p>
+    </div>
+    <!-- Review 2 -->
+    <div class="review-card">
+     <img alt="Ayesha Z" src="images/reviewer2.jpg"/>
+     <h3>
+      Ayesha Z.
+     </h3>
+     <div class="stars">
+      ★★★★☆
+     </div>
+     <p>
+      "DenimVibe is my go-to for everyday jeans. Great fit, good price."
+     </p>
+    </div>
+    <!-- Review 3 -->
+    <div class="review-card">
+     <img alt="Mina R" src="images/reviewer3.jpg"/>
+     <h3>
+      Mina R.
+     </h3>
+     <div class="stars">
+      ★★★★★
+     </div>
+     <p>
+      "Love the fabric quality and perfect fit! Received so many compliments."
+     </p>
+    </div>
+    <!-- Review 4 -->
+    <div class="review-card">
+     <img alt="Zara L" src="images/reviewer4.jpg"/>
+     <h3>
+      Zara L.
+     </h3>
+     <div class="stars">
+      ★★★★☆
+     </div>
+     <p>
+      "Fast delivery and amazing customer service. Jeans look exactly as pictured."
+     </p>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

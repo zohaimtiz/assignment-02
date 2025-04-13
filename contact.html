@@ -1,0 +1,193 @@
+
+<!-- Created by: Zoha | ID: 028 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Contact Us | DenimVibe
+  </title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   /* Reset & Base */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fefefe;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #222;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+      font-size: 0.95rem;
+    }
+    nav a:hover,
+    nav a.active {
+      color: #f9a825;
+    }
+
+    /* Hero Banner */
+    .contact-hero {
+      background: url('images/contact-banner.jpg') center/cover no-repeat;
+      padding: 80px 20px;
+      text-align: center;
+      color: white;
+    }
+    .contact-hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    .contact-hero p {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    /* Main Container */
+    .contact-container {
+      max-width: 1100px;
+      margin: 50px auto;
+      padding: 0 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    /* Form Styles */
+    .contact-form {
+      flex: 1 1 500px;
+    }
+    .contact-form h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 1rem;
+    }
+    .contact-form button {
+      background-color: #111;
+      color: #fff;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background-color: #333;
+    }
+
+    /* Contact Info */
+    .contact-info {
+      flex: 1 1 300px;
+    }
+    .contact-info h3 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+    .contact-info p {
+      margin: 8px 0;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .contact-container {
+        flex-direction: column;
+      }
+      .contact-hero h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+ </head>
+ <body>
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="collection.html">Collection (Shop)</a>
+    <a href="product-detail.html">Product Details</a>
+    <a href="size-chart.html">Size Chart</a>
+    <a href="offer.html">Special Offers</a>
+    <a href="reviews.html">Customer Reviews</a>
+    <a href="gallery.html">Lookbook Gallery</a>
+    <a href="faq.html">FAQs</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+  
+  <!-- Hero Banner -->
+  <section class="contact-hero">
+  </section>
+  <!-- Contact Content -->
+  <div class="contact-container">
+   <!-- Message Form -->
+   <div class="contact-form">
+    <h2>
+     Send Us a Message
+    </h2>
+    <form>
+     <input placeholder="Your Name" required="" type="text"/>
+     <input placeholder="Your Email" required="" type="email"/>
+     <input placeholder="Subject" type="text"/>
+     <textarea placeholder="Your Message" rows="6"></textarea>
+     <button type="submit">
+      Send Message
+     </button>
+    </form>
+   </div>
+   <!-- Contact Details -->
+   <div class="contact-info">
+    <h3>
+     Reach Us At
+    </h3>
+    <p>
+     <strong>
+      Address:
+     </strong>
+     <br/>
+     12th Floor, Vibe Mall, Lahore, Pakistan
+    </p>
+    <p>
+     <strong>
+      Phone:
+     </strong>
+     <br/>
+     +92 312 1234567
+    </p>
+    <p>
+     <strong>
+      Email:
+     </strong>
+     <br/>
+     hello@denimvibe.com
+    </p>
+    <p>
+     <strong>
+      Working Hours:
+     </strong>
+     <br/>
+     Mon – Sat | 10am – 8pm
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

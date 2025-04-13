@@ -1,0 +1,162 @@
+
+<!-- Created by: Zoha | ID: 028 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Special Offers | DenimVibe
+  </title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+    }
+    /* Navigation */
+    nav {
+      background-color: #222;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+    }
+    nav a.active, nav a:hover {
+      color: #f9a825;
+    }
+
+    /* Hero Banner */
+    .hero {
+      background: url('images/offer-banner.jpg') center/cover no-repeat;
+      padding: 80px 20px;
+      text-align: center;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      margin: 0 0 10px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    /* Offers Grid */
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .offers-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+    .offer-card {
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .offer-card:hover {
+      transform: translateY(-5px);
+    }
+    .offer-card img {
+      width: 100%;
+      display: block;
+    }
+    .offer-info {
+      padding: 20px;
+    }
+    .offer-info h3 {
+      margin: 0 0 10px;
+      font-size: 1.2rem;
+    }
+    .offer-info p {
+      margin: 0;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .offers-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+ </head>
+ <body>
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="collection.html">Collection (Shop)</a>
+    <a href="product-detail.html">Product Details</a>
+    <a href="size-chart.html">Size Chart</a>
+    <a href="offer.html">Special Offers</a>
+    <a href="reviews.html">Customer Reviews</a>
+    <a href="gallery.html">Lookbook Gallery</a>
+    <a href="faq.html">FAQs</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+  
+  <!-- Hero Banner -->
+  <section class="hero">
+   <h1>
+    Exclusive Denim Deals
+   </h1>
+   <p>
+    Grab your favorite styles at unbeatable prices!
+   </p>
+  </section>
+  <!-- Offers Grid -->
+  <div class="container">
+   <div class="offers-grid">
+    <div class="offer-card">
+     <img alt="Skinny Jeans - 20% Off" src="images/offer1.jpg"/>
+     <div class="offer-info">
+      <h3>
+       Skinny Jeans - 20% Off
+      </h3>
+      <p>
+       Comfort stretch fit for everyday wear.
+      </p>
+     </div>
+    </div>
+    <div class="offer-card">
+     <img alt="High Waist Jeans - BOGO" src="images/offer2.jpg"/>
+     <div class="offer-info">
+      <h3>
+       High Waist Jeans - BOGO
+      </h3>
+      <p>
+       Buy one, get one free on selected colors.
+      </p>
+     </div>
+    </div>
+    <div class="offer-card">
+     <img alt="3-Piece Bundle - 30% Off" src="images/offer3.jpg"/>
+     <div class="offer-info">
+      <h3>
+       3-Piece Bundle - 30% Off
+      </h3>
+      <p>
+       Pick any 3 jeans for a flat 30% discount.
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
